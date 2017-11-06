@@ -18,3 +18,7 @@ Branches help to keep alternalive versions of history and develop them in parall
 How do the diagrams help you visualize the branch structure?
 
 Diagrams represent commit history by graphs.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is all the changes contained in the first branch will be combined with the changes in the second branch and will be added to the second branch as a new commit.
