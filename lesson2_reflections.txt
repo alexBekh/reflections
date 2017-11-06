@@ -6,3 +6,7 @@ How is the staging area different from the working directory and the repository?
 
 Staging area is the middleman between the working directory and the repository. It allows the repository to track changes only for selected banch of files in the working directory insead of include all the files.
 The main value it offets is might to separate which files in the working directory should be saved to repository and which are not.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Add only the files corresponding to the logical change.
