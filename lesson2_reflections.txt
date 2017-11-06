@@ -22,3 +22,7 @@ Diagrams represent commit history by graphs.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 
 The result is all the changes contained in the first branch will be combined with the changes in the second branch and will be added to the second branch as a new commit.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merge can save a lot of time in case choise is pretty simple. In case of ambiguous choise it makes user to resolve conficts manually. 
