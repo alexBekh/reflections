@@ -14,3 +14,7 @@ Add only the files corresponding to the logical change.
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
 Branches help to keep alternalive versions of history and develop them in parallel.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams represent commit history by graphs.
