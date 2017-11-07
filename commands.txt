@@ -8,7 +8,7 @@ git add .(add all modified files)
 git reset
 git commit -a
 git branch
-git log --stat --graph --oneline --all
+git log --stat --graph --oneline --decorate --all
 git diff
 git merge
 git checkout -b
