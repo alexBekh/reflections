@@ -1,0 +1,14 @@
+gitk - gui for history
+git-gui - gui mode
+
+git clone
+git init
+git status
+git add .(add all modified files)
+git reset
+git commit -a
+git branch
+git log --stat --graph --oneline --all
+git diff
+git merge
+git checkout -b
