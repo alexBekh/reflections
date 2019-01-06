@@ -12,3 +12,4 @@ git log --stat --graph --oneline --decorate --all
 git diff
 git merge
 git checkout -b
+git reflog          //shows all recent commits
