@@ -1,15 +1,35 @@
-gitk - gui for history
-git-gui - gui mode
+gitk                            // gui for history
+git-gui                         // gui mode
 
 git clone
 git init
 git status
-git add .(add all modified files)
-git reset
-git commit -a
-git branch
+git add .                       // adds all modified files
+git reset [file]                // unstage the file but preserve local changes
+git reset --hard [file]         // resets changes for file in stage area and working dir  
+git reset [commit]              // undo all commits after given commit but preserve local changes
+git reset --hard [commit]       // discards all history and changes back to the specified commit
+git commit -a                   // adds and commits all changes    
+git branch                      // shows all branches
+git branch [name]               // creates a branch with given name
+git branch -d [name]            // deletes branch's label (commits stay alive, but can be unreachable)
 git log --stat --graph --oneline --decorate --all
-git diff
-git merge
-git checkout -b
-git reflog // shows all recent commits
+git log [branch]                // shows history for branch. could be more than one branch
+git log [file]                  // shows history for file. could be more than one file
+git log -n [m]                  // shows last m commits 
+git diff                        // diffs between working dir and staging area 
+git diff --staged               // diffs between staging area and HEAD
+git diff [commitA] [commitB]    // diffs between commitA and commitB, commitA treats as origin and commitB as modification
+git show [commit]               // diffs between commit and it's parent
+git merge [branch]              // merges selected branch to current
+git merge --abort               // restores files to their state before started the merge. Usefull with merge conflict.
+git checkout [commitId]         // checkout commit
+git checkout [branch]           // checkout branch
+git checkout master             // checkout HEAD of the master branch
+git checkout -b [branch]        // creates and checkouts new branch     
+git reflog                      // shows all recent operations
+git remote                      // shows all remotes for local repository
+git remote add [name] [url]     // adds remote from url and names it by name (if there only one remote it used to be named "origin")
+git remote -v                   // shows verbose information for remotes
+git push [remote] [branch]      // pushes branch to specified remote
+git pull [remote] [branch]      // pulles branch from specified remote
