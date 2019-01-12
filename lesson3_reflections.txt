@@ -18,3 +18,7 @@ Fork is a copy of remote repository that stores onto GitHub. Clone is local copy
 Sync with remote branch state
 
 
+5.How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Git and GitHub are the special tools created for collaborating and team work. So is't abviously work without Git and GitHub would be much harder.
+
