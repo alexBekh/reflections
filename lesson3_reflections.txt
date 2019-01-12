@@ -8,3 +8,8 @@ When I want to share my proj with some other people or to work on it from variou
 Manual pull gives control and consistensy, because logical changes may include several local commits.
 
 
+3.Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork is a copy of remote repository that stores onto GitHub. Clone is local copy of remote. Branch is a tip placed on the head of chain of commits, that allows to access these commits.  
+
+
