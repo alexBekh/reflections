@@ -32,4 +32,5 @@ git remote                      // shows all remotes for local repository
 git remote add [name] [url]     // adds remote from url and names it by name (if there only one remote it used to be named "origin")
 git remote -v                   // shows verbose information for remotes
 git push [remote] [branch]      // pushes branch to specified remote
-git pull [remote] [branch]      // pulles branch from specified remote
+git pull [remote] [branch]      // pulles branch from specified remote. git pull remote branch = git fetch remote + git merge remote/branch
+git fetch [remote]              // fetchs remote branges to local repo
