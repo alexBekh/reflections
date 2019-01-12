@@ -13,3 +13,8 @@ Manual pull gives control and consistensy, because logical changes may include s
 Fork is a copy of remote repository that stores onto GitHub. Clone is local copy of remote. Branch is a tip placed on the head of chain of commits, that allows to access these commits.  
 
 
+4.What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Sync with remote branch state
+
+
