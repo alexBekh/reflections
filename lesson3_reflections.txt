@@ -25,4 +25,4 @@ Git and GitHub are the special tools created for collaborating and team work. So
 
 6.When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
 
-Make changes in a separate branch is more prefer when changes may broke master. Especialy when collaborating on shared code with other people. The main benefit in this case is that master always stays working. 
+When collaborating with other people it's good idea to review changes before merge it to remote/master. To do this you should create separate branch for changes, push it to remote repo and make GitHub pull request for merge this remote/branch into remote/master (or other remote/branch). Then other contributors can review and comment changes through created pull request. Later if needed you make corrections, commit and push to remote/branch. All related commits will be shown in the pull request. After all GitHub pull request closes by merging remote/branch into remote/master (or fork/master to origin/master).
